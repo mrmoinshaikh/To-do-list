@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #35d8d5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set min-height to 100vh */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px; /* Add margin to push the container down a bit */
+    padding: 20px;
+    background-color: #c0e4f0;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Rest of the CSS remains unchanged */
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    margin-bottom: 20px; /* Add margin-bottom to separate from the container */
+}
+
+
+/* Rest of the CSS remains unchanged */
+
+/* Rest of the CSS remains unchanged */
+
+/* Rest of the CSS remains unchanged */
+
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px; /* Add curved border */
+    flex: 1;
+}
+
+button {
+    padding: 10px 12px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px; /* Add curved border */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #58a1b8;
+}
+
+.category-task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.category-task-table th,
+.category-task-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.delete-button,
+.status-button {
+    padding: 6px 12px;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px; /* Add curved border */
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover,
+.status-button:hover {
+    background-color: #e04545;
+}
+
+.status-button {
+    background-color: #c03e3e;
+}
+
+.status-button.pending {
+    background-color: #ff6666;
+}
+
+.status-button.in-progress {
+    background-color: #ffa500;
+}
+
+.status-button.completed {
+    background-color: #66cc66;
+}
+
+.chart-container {
+    text-align: center;
+    margin-bottom: 12px;
+    border-radius: 35px; /* Add curved border */
+    background-color: #ffffff;
+    padding: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 600px) {
+    .input-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Rest of the CSS remains unchanged */
+
