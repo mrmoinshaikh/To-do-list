@@ -2,7 +2,6 @@ let tasks = [];
 let progressChart;
 
 // Rest of the JavaScript remains unchanged
-// this is the comment example this project is done by the moin shaikh
 function addTask() {
     const taskInput = document.getElementById("taskInput");
     const task = taskInput.value.trim();
